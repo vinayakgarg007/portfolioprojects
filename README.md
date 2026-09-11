@@ -1,11 +1,10 @@
 # Portfolio Projects
 
-Python-based data automation projects — web scraping, data cleaning, and reporting.
+Python-based data automation — web scraping, cleaning, and reporting.
 
 ---
 
-## 1. Competitor Price Monitor
-**Folder:** `scraping_static/`
+## Competitor Price Monitor
 
 Scrapes product listings across multiple sources, cleans and structures the data, and outputs a two-sheet Excel report: raw data plus a per-source summary (average/min/max price, cheapest and priciest items, stock counts).
 
@@ -20,20 +19,6 @@ Scrapes product listings across multiple sources, cleans and structures the data
 **Sample output:** [`price_report.xlsx`](./price_report.xlsx)
 
 Also includes [`full_catalog_test.xlsx`](./full_catalog_test.xlsx) — a scale test run against a 50-page, ~1000-item catalog to confirm the scraper handles larger jobs reliably, not just small samples.
-
----
-
-## 2. Sales Data Cleaner
-**Folder:** *(add path once pushed)*
-
-Cleans a messy sales CSV — handling missing values, duplicate rows, inconsistent text formatting, mixed currency formats, and inconsistent date formats — and outputs a standardized, analysis-ready report.
-
-**Tech used:** Python, `pandas`
-
-**What it demonstrates:**
-- Data validation and cleaning decisions (e.g., median-fill vs. dropping missing values, and why)
-- Standardizing inconsistent formatting across a real-world messy dataset
-- Producing summary statistics (totals, date ranges, unique counts) from cleaned data
 
 ---
 
